@@ -95,7 +95,9 @@ body * {
 
 #switch button:hover{
 outline: 8px solid var(--highlight-color);
+cursor: pointer;
 }
+
 #switch span {
   display: block;
   width: 64px;
@@ -141,6 +143,7 @@ ul li a {
 ul li a :hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
+
 }
 
 /*social-links*/
@@ -151,6 +154,7 @@ ul li a :hover {
   padding: 24px 0;
 
   font-size: 24px;
+
 }
 
 #social-links a {
